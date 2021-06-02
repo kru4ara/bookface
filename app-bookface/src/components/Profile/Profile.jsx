@@ -1,3 +1,4 @@
+import MyPosts from "./MyPosts/MyPosts";
 import classes from "./Profile.module.css";
 
 const Profile = () => {
@@ -23,17 +24,7 @@ const Profile = () => {
           <p className={classes.city}> City: Kobrin</p>
         </div>
       </div>
-      <div>
-        My posts
-        <div className={classes.form}>
-          <textarea name="newPost" id="" cols="100" rows="2"></textarea>
-          <button className={classes.addPost}>Add Post</button>
-        </div>
-        <div>
-          <div className={classes.post}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis dolorem molestiae aperiam nulla nisi aspernatur impedit aut at corporis, iste a labore? Quibusdam explicabo porro quae distinctio maiores ut.</div>
-          <div className={classes.post}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit in accusantium eos saepe pariatur repudiandae blanditiis sapiente minus! Delectus at similique sit aliquam voluptatibus vitae tempore porro perferendis inventore beatae!</div>
-        </div>
-      </div>
+      <MyPosts />
     </div>
   );
 };

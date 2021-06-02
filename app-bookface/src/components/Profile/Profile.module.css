@@ -1,0 +1,22 @@
+.content {
+  grid-area: c;
+  padding: 8px;
+}
+
+.header {
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: left;
+}
+
+.avatar {
+  width: 200px;
+}
+
+.description {
+  padding-left: 16px;
+}
