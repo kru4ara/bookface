@@ -1,3 +1,6 @@
+body{
+  background-color: lightgrey;
+}
 .wrap {
   margin: auto;
   max-width: 1200px;
@@ -8,25 +11,4 @@
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   /* grid-gap: 10px; */
-}
-
-.header {
-  grid-area: h;
-  background-color: #d12c2c;
-}
-.header img {
-  width: 55px;
-}
-
-.nav {
-  grid-area: n;
-  background-color: #e14ee1;
-}
-.nav li {
-  list-style: none;
-}
-
-.content {
-  grid-area: c;
-  background-color: #3ca727;
 }
