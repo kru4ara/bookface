@@ -1,10 +1,10 @@
-import './Navbar.css'
+import classes from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav className="nav">
+    <nav className={classes.nav}>
       <ul>
-        <li>
+        <li className={classes.activ}>
           <a href="#s">Profile</a>
         </li>
         <li>
@@ -14,7 +14,7 @@ const Navbar = () => {
           <a href="#s">News</a>
         </li>
         <li>
-          <a href="#s">Musik</a>
+          <a href="#s">Music</a>
         </li>
         <li>
           <a href="#s">Settings</a>
