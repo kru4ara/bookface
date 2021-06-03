@@ -1,18 +1,21 @@
 import './App.css';
-import Content from './components/Profile/Profile';
+import Profile from './components/Profile/Profile';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-
-
+import Dialogs from "./components/Dialogs/Dialogs";
 
 const App = () => {
-  return (
-    <div className="wrap">
-      <Header/>
-      <Navbar/>
-      <Content/>
-    </div>
-  )
+    return (
+        <div className="app-wrapper">
+            <Header/>
+            <Navbar/>
+            <div className="app-wrapper-content">
+                <Dialogs/>
+                {/*<Profile/>*/}
+            </div>
+
+        </div>
+    )
 }
 
 export default App;

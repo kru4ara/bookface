@@ -1,9 +1,10 @@
 body{
   background-color: lightgrey;
 }
-.wrap {
+.app-wrapper {
   margin: auto;
   max-width: 1200px;
+
   display: grid;
   grid-template-areas:
     "h h "
@@ -11,4 +12,10 @@ body{
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   /* grid-gap: 10px; */
+}
+
+.app-wrapper-content{
+  grid-area: c;
+  padding: 8px;
+  background-color: gainsboro;
 }
