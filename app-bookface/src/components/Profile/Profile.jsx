@@ -11,7 +11,7 @@ const Profile = (props) => {
           alt="01"
         />
       </div>
-      <div className={classes.userInfo}>
+      <div >
         <img
           className={classes.avatar}
           src="https://www.meme-arsenal.com/memes/825b9b3ef148fbf2b20f47951e170699.jpg"

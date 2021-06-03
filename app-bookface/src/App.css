@@ -16,6 +16,5 @@ body{
 
 .app-wrapper-content{
   grid-area: c;
-  padding: 8px;
   background-color: gainsboro;
 }

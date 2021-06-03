@@ -1,21 +1,16 @@
 .nav {
   grid-area: n;
   background-color: yellowgreen;
-  margin-top: 8px;
-  padding-right: 32px;
+  padding: 48px 24px;
   text-align: center;
 }
-
-li {
-  list-style: none;
-}
-
-.activ {
+.item a.activ {
   border: 2px white solid;
 }
 
-a {
+.item a {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
