@@ -7,7 +7,7 @@
 }
 .dialog {
 }
-.dialog .activ {
+.dialog a.activ {
   border: 2px black solid;
 }
 
