@@ -5,8 +5,8 @@ import classes from "./Profile.module.css";
 const Profile = (props) => {
   return (
     <div className={classes.profile}>
-      <ProfileInfo/>
-      <MyPosts />
+      <ProfileInfo />
+      <MyPosts posts={props.posts} />
     </div>
   );
 };
