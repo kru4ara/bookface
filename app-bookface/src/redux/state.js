@@ -7,7 +7,7 @@ const state = {
             { id: "4", message: "Can meet?", likesCount: "175" },
         ],
     },
-    
+
     dialogsPage: {
         dialogs: [
             { id: "1", name: "Anatoli" },

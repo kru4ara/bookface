@@ -1,3 +1,7 @@
 .myPosts{
     padding: 16px;
 }
+
+.myPosts h2{
+    text-align: center;
+}

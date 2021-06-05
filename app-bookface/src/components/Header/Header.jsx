@@ -1,12 +1,14 @@
-import classes from './Header.module.css'
+import classes from "./Header.module.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className={classes.header}>
       <img
+        className={classes.logo}
         src="http://www.unwater.org/app/plugins/types/vendor/toolset/onthego-resources/onthegosystems-icons/vectors/bootstrap-original-logo.svg"
         alt="logo"
-      />ookface
+      />
+      <span className={classes.logoText}>ookface</span>
     </header>
   );
 };

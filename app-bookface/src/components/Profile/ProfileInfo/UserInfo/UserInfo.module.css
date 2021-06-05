@@ -1,6 +1,16 @@
 .userInfo {
+  display: flex;
   padding: 16px;
 }
 .avatar {
   width: 200px;
+  border-radius: 50%;
+}
+
+.description{
+  padding-left: 24px;
+}
+.description p{
+  color: grey;
+  font-size: 20px;
 }

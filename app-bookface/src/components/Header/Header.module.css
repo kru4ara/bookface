@@ -3,6 +3,14 @@
   background-color: yellowgreen;
   padding-left: 8px;
 }
-.header img {
+.logo {
+  display: inline-block;
+  vertical-align: middle;
   width: 50px;
+}
+
+.logoText{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }

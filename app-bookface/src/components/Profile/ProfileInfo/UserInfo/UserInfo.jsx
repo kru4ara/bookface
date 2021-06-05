@@ -9,9 +9,10 @@ const UserInfo = (props) => {
         alt="02"
       />
       <div className={classes.description}>
-        <p className={classes.name}> Name: Anatoli</p>
+        <p className={classes.name}> Name: Anatoli Kurliuk</p>
         <p className={classes.age}> Age: 32 year</p>
-        <p className={classes.city}> City: Kobrin</p>
+        <p className={classes.city}> City: BY, Kobrin</p>
+        <p className={classes.job}> Job: Frontend Developer(React)</p>
       </div>
     </div>
   );
